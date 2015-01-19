@@ -26,8 +26,10 @@ def hack_RSA(e,n):
             if(discr>=0):
                 t = Arithmetic.is_perfect_square(discr)
                 if t!=-1 and (s+t)%2==0:
-                    print("Hacked!")
+                    # print("Hacked!")
                     return d
+
+    return 0
 
 # TEST functions
 
